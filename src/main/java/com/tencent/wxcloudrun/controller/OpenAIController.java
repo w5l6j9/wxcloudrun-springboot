@@ -13,7 +13,7 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class OpenAIController {
 
-    @Value("${openai.api.key}")
+    //@Value("${openai.api.key}")
     private String openAIApiKey;
 
     private final String openAIEndpoint = "https://api.openai.com/v1/engines/davinci-codex/completions";
