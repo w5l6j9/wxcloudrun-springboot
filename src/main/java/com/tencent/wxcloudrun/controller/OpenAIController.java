@@ -32,4 +32,9 @@ public class OpenAIController {
         return response;
     }
 
+    @PostMapping("/test")
+    public String test(){
+
+        return "success";
+    }
 }
